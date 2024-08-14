@@ -22,7 +22,7 @@ local CaptureZoneDiameter = CaptureZoneSize.X
 local CaptureZoneRadius = CaptureZoneDiameter / 2
 local remotes = ReplicatedStorage.Depot
 
-local Thread = require(ReplicatedStorage.Modules.Util.Thread)
+local Thread = -- INPUT THREAD LOCATION
 
 -- Variables
 local captureLoop = nil
